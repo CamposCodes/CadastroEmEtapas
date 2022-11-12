@@ -32,9 +32,9 @@ export const FinalPage = () => {
     return(
         <Theme>
             <C.Container>
-                <span>Finalizar</span>
+                <span>Confirmação</span>
                 <h1>Parabéns !</h1>
-                <p>Seu Cadastro foi finalizado, confira os dados abaixo.</p>
+                <p>Seu cadastro foi finalizado, confira os dados abaixo.</p>
                 
                 <hr/>
 
