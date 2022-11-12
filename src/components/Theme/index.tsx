@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import * as C from "./styles";
 import { Header } from "../Header/index";
+import { Footer } from "../Footer/index";
 import { SidebarItem } from "../SidebarItem";
 import { useForm } from "../../contexts/FormContext";
 
@@ -50,6 +51,7 @@ export const Theme = ({children}: Props) => {
                     </C.Sidebar>
                     <C.Page>{children}</C.Page>
                 </C.Steps>
+                <Footer/>
             </C.Area>
         </C.Container>
     );
