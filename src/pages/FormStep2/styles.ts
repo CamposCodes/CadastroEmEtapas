@@ -8,9 +8,9 @@ export const Container = styled.div`
     span {
         font-size: 15px;
         color: #25CD89;
-    }
+    } 
     h1 {
-        margin: 0;
+        margin: 0;  
         padding: 0;
         font-size: 26px;
     }

@@ -47,7 +47,7 @@ export const FormStep1 = () => {
                         value={state.name}
                         onChange={handleNameChange}
                     />
-                </label>
+                </label>  
 
                 <button onClick={handleNextStep}>Próximo</button>
             </C.Container>

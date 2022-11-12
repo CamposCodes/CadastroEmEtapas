@@ -31,7 +31,7 @@ export const SidebarItem = ({title,description,icon,path,active}:Props) => {
                     {icon === 'confirm' && (
                         <IoMdDoneAll className="icon"/>
                     )}
-
+  
                 </C.IconArea>
                 <C.Point active={active}></C.Point>
             </Link>

@@ -7,7 +7,7 @@ import { SelectOption } from '../../components/SelectOption';
 
 export const FormStep2 = () => {
     const navigate = useNavigate();
-    const { state, dispatch } = useForm();
+    const { state, dispatch } = useForm(); 
 
     useEffect(() => {
         if(state.name === '') {

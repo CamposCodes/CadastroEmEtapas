@@ -8,7 +8,7 @@ export const Container = styled.div`
         display: flex;
         align-items: center;
         text-decoration: none;
-    }
+    }  
 `;
 export const Info = styled.div`
     flex: 1;

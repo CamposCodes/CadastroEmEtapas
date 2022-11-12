@@ -12,7 +12,7 @@ export const Router = () => {
                 <Route element={<FormStep2/>} path="/step2"/>
                 <Route element={<FormStep3/>} path="/step3"/>
                 <Route element={<FinalPage/>} path="/final"/>
-            </Routes>
+            </Routes>  
         </BrowserRouter>
     );
 }

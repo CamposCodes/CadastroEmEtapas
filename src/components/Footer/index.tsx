@@ -4,7 +4,7 @@ import {FaGithub,FaLinkedin,FaInstagram} from "react-icons/fa"
 export const Footer = () => {
     return(
         <C.Container>
-            <hr/>
+            <hr/>  
             <div>
                 <div>
                 <p><a target="_blank" href="https://www.instagram.com/dev.camposg/"><FaInstagram/></a></p>

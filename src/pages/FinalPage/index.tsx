@@ -36,7 +36,7 @@ export const FinalPage = () => {
                 <h1>Parabéns !</h1>
                 <p>Seu cadastro foi finalizado, confira os dados abaixo.</p>
                 
-                <hr/>
+                <hr/>  
 
                 {/* //dados cadastrados */}
 

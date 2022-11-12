@@ -1,7 +1,7 @@
 import * as C from "./styles";
 import logo from "../../imgs/icon.png";
 
-export const Header = () => {
+export const Header = () => {  
     return(
         <C.Container>
             <img src={logo} alt="logo"/>

@@ -11,7 +11,7 @@ export const Container = styled.div<{ selected: boolean; }>`
     &:hover {
         box-shadow: 1px -1px 35px 5px rgba(37,205,137,0.75);
     }
-`;
+`;  
 
 export const Icon = styled.div`
     width: 60px;

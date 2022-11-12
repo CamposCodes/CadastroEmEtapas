@@ -9,7 +9,7 @@ export const FormStep3 = () => {
     const { state, dispatch } = useForm();
 
     useEffect(() => {
-        if(state.name === '') {
+        if(state.name === '') {  
             navigate('/');
         } else {
             dispatch({

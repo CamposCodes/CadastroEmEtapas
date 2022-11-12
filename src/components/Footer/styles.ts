@@ -19,7 +19,7 @@ export const Container = styled.div`
         font-size: 12px;
     }
     div{
-        display: flex;
+        display: flex;  
         justify-content: space-between;
 
         p,a{

@@ -17,5 +17,5 @@ export const SelectOption = ({title, description, icon, selected, onClick}: Prop
                 <C.Description>{description}</C.Description>
             </C.Info>
         </C.Container>
-    );
+    );  
 }

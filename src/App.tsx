@@ -5,7 +5,7 @@ import { FormProvider } from "./contexts/FormContext";
 const App = () => {
     return (
         <FormProvider>
-            <Router/>
+            <Router/>   
         </FormProvider>
     );
 }
