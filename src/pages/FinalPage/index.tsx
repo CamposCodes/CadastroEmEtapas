@@ -4,6 +4,7 @@ import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { BiRevision } from "react-icons/bi"
 
 export const FinalPage = () => {
     const navigate = useNavigate();
@@ -65,7 +66,7 @@ export const FinalPage = () => {
                 </C.Area>
 
                 <Link to="/step3" className="backButton">Voltar</Link>
-                <button onClick={handleNextStep}>Confirmar</button>
+                <button onClick={handleNextStep}><BiRevision/></button>
             </C.Container>
         </Theme>
     );
